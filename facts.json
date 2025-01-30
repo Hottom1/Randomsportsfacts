@@ -1,0 +1,402 @@
+[
+    {
+        "sport": "Soccer",
+        "fact": "The first World Cup was held in 1930 in Uruguay."
+    },
+    {
+        "sport": "Soccer",
+        "fact": "Pelé is the only player to win three World Cups (1958, 1962, 1970)."
+    },
+    {
+        "sport": "Soccer",
+        "fact": "The fastest goal in World Cup history was scored in 11 seconds by Hakan Şükür in 2002."
+    },
+    {
+        "sport": "Soccer",
+        "fact": "The most expensive soccer transfer fee was €222 million for Neymar in 2017."
+    },
+    {
+        "sport": "Soccer",
+        "fact": "The longest soccer match lasted 3 hours and 23 minutes."
+    },
+    {
+        "sport": "Basketball",
+        "fact": "James Naismith invented basketball in 1891."
+    },
+    {
+        "sport": "Basketball",
+        "fact": "The NBA was founded in 1946."
+    },
+    {
+        "sport": "Basketball",
+        "fact": "Michael Jordan has six NBA championship rings."
+    },
+    {
+        "sport": "Basketball",
+        "fact": "The tallest NBA player ever was Gheorghe Mureșan at 7'7\"."
+    },
+    {
+        "sport": "Basketball",
+        "fact": "The shortest NBA player was Muggsy Bogues at 5'3\"."
+    },
+    {
+        "sport": "Tennis",
+        "fact": "Wimbledon is the oldest tennis tournament in the world, starting in 1877."
+    },
+    {
+        "sport": "Tennis",
+        "fact": "The fastest tennis serve was 163.7 mph by Sam Groth."
+    },
+    {
+        "sport": "Tennis",
+        "fact": "Roger Federer has won 20 Grand Slam titles."
+    },
+    {
+        "sport": "Tennis",
+        "fact": "The longest tennis match lasted 11 hours and 5 minutes."
+    },
+    {
+        "sport": "Tennis",
+        "fact": "The Davis Cup is the largest annual international team competition in sport."
+    },
+    {
+        "sport": "Baseball",
+        "fact": "The first World Series was held in 1903."
+    },
+    {
+        "sport": "Baseball",
+        "fact": "Babe Ruth hit 714 home runs in his career."
+    },
+    {
+        "sport": "Baseball",
+        "fact": "The longest baseball game lasted 8 hours and 25 minutes."
+    },
+    {
+        "sport": "Baseball",
+        "fact": "Jackie Robinson was the first African American to play in Major League Baseball."
+    },
+    {
+        "sport": "Baseball",
+        "fact": "The New York Yankees have won the most World Series titles (27)."
+    },
+    {
+        "sport": "American Football",
+        "fact": "The first Super Bowl was held in 1967."
+    },
+    {
+        "sport": "American Football",
+        "fact": "Tom Brady has won seven Super Bowl titles."
+    },
+    {
+        "sport": "American Football",
+        "fact": "The NFL was founded in 1920."
+    },
+    {
+        "sport": "American Football",
+        "fact": "The longest field goal in NFL history was 66 yards by Justin Tucker."
+    },
+    {
+        "sport": "American Football",
+        "fact": "The Green Bay Packers are the only non-profit, community-owned major professional sports team in the U.S."
+    },
+    {
+        "sport": "Ice Hockey",
+        "fact": "The Stanley Cup is the oldest professional sports trophy in North America."
+    },
+    {
+        "sport": "Ice Hockey",
+        "fact": "Wayne Gretzky holds the record for most career points in the NHL (2,857)."
+    },
+    {
+        "sport": "Ice Hockey",
+        "fact": "The fastest slapshot in NHL history was 108.8 mph by Zdeno Chara."
+    },
+    {
+        "sport": "Ice Hockey",
+        "fact": "The Montreal Canadiens have won the most Stanley Cups (24)."
+    },
+    {
+        "sport": "Ice Hockey",
+        "fact": "The first indoor ice hockey game was played in 1875."
+    },
+    {
+        "sport": "Cricket",
+        "fact": "The first international cricket match was played in 1844 between the U.S. and Canada."
+    },
+    {
+        "sport": "Cricket",
+        "fact": "Sachin Tendulkar has scored the most runs in international cricket (34,357)."
+    },
+    {
+        "sport": "Cricket",
+        "fact": "The longest cricket match lasted 14 days."
+    },
+    {
+        "sport": "Cricket",
+        "fact": "The Ashes is a Test cricket series played between England and Australia."
+    },
+    {
+        "sport": "Cricket",
+        "fact": "The first Cricket World Cup was held in 1975."
+    },
+    {
+        "sport": "Rugby",
+        "fact": "Rugby was invented in 1823 by William Webb Ellis."
+    },
+    {
+        "sport": "Rugby",
+        "fact": "The Rugby World Cup is held every four years."
+    },
+    {
+        "sport": "Rugby",
+        "fact": "New Zealand's national rugby team is called the All Blacks."
+    },
+    {
+        "sport": "Rugby",
+        "fact": "The longest rugby match lasted 7 hours and 12 minutes."
+    },
+    {
+        "sport": "Rugby",
+        "fact": "Jonah Lomu is considered one of the greatest rugby players of all time."
+    },
+    {
+        "sport": "Golf",
+        "fact": "The first golf balls were made of wood."
+    },
+    {
+        "sport": "Golf",
+        "fact": "Tiger Woods has won 15 major championships."
+    },
+    {
+        "sport": "Golf",
+        "fact": "The Masters Tournament is held annually at Augusta National Golf Club."
+    },
+    {
+        "sport": "Golf",
+        "fact": "The longest golf drive in competition was 515 yards by Mike Austin."
+    },
+    {
+        "sport": "Golf",
+        "fact": "The Ryder Cup is a biennial competition between Europe and the United States."
+    },
+    {
+        "sport": "Boxing",
+        "fact": "Muhammad Ali is considered one of the greatest boxers of all time."
+    },
+    {
+        "sport": "Boxing",
+        "fact": "The longest boxing match lasted 110 rounds in 1893."
+    },
+    {
+        "sport": "Boxing",
+        "fact": "Mike Tyson was the youngest heavyweight champion at 20 years old."
+    },
+    {
+        "sport": "Boxing",
+        "fact": "The first boxing gloves were used in ancient Greece."
+    },
+    {
+        "sport": "Boxing",
+        "fact": "Floyd Mayweather retired with an undefeated record of 50-0."
+    },
+    {
+        "sport": "MMA",
+        "fact": "The UFC was founded in 1993."
+    },
+    {
+        "sport": "MMA",
+        "fact": "Anderson Silva holds the record for the longest title reign in UFC history."
+    },
+    {
+        "sport": "MMA",
+        "fact": "Conor McGregor was the first UFC fighter to hold titles in two weight classes simultaneously."
+    },
+    {
+        "sport": "MMA",
+        "fact": "The first UFC event was held in Denver, Colorado."
+    },
+    {
+        "sport": "MMA",
+        "fact": "Ronda Rousey was the first female UFC champion."
+    },
+    {
+        "sport": "Motorsport",
+        "fact": "The first Formula 1 World Championship was held in 1950."
+    },
+    {
+        "sport": "Motorsport",
+        "fact": "Michael Schumacher has won seven Formula 1 World Championships."
+    },
+    {
+        "sport": "Motorsport",
+        "fact": "The 24 Hours of Le Mans is the world's oldest active sports car race."
+    },
+    {
+        "sport": "Motorsport",
+        "fact": "The fastest lap in Formula 1 history was set by Lewis Hamilton at Monza in 2020."
+    },
+    {
+        "sport": "Motorsport",
+        "fact": "The Indianapolis 500 is the largest single-day sporting event in the world."
+    },
+    {
+        "sport": "Cycling",
+        "fact": "The Tour de France is the most prestigious cycling race in the world."
+    },
+    {
+        "sport": "Cycling",
+        "fact": "Eddy Merckx is considered the greatest cyclist of all time."
+    },
+    {
+        "sport": "Cycling",
+        "fact": "The longest cycling race is the Tour de France, covering over 3,500 kilometers."
+    },
+    {
+        "sport": "Cycling",
+        "fact": "Lance Armstrong won seven Tour de France titles, but they were later stripped due to doping."
+    },
+    {
+        "sport": "Cycling",
+        "fact": "The first bicycle was invented in 1817 by Karl Drais."
+    },
+    {
+        "sport": "Athletics",
+        "fact": "Usain Bolt holds the world record for the 100 meters at 9.58 seconds."
+    },
+    {
+        "sport": "Athletics",
+        "fact": "The marathon distance is 42.195 kilometers."
+    },
+    {
+        "sport": "Athletics",
+        "fact": "The first modern Olympics were held in 1896."
+    },
+    {
+        "sport": "Athletics",
+        "fact": "Jesse Owens won four gold medals at the 1936 Berlin Olympics."
+    },
+    {
+        "sport": "Athletics",
+        "fact": "The decathlon consists of 10 track and field events."
+    },
+    {
+        "sport": "Swimming",
+        "fact": "Michael Phelps has won 28 Olympic medals, the most in history."
+    },
+    {
+        "sport": "Swimming",
+        "fact": "The butterfly stroke was first introduced in the 1930s."
+    },
+    {
+        "sport": "Swimming",
+        "fact": "The longest open water swim was 2,360 kilometers by Martin Strel."
+    },
+    {
+        "sport": "Swimming",
+        "fact": "The first swimming goggles were made from tortoise shells."
+    },
+    {
+        "sport": "Swimming",
+        "fact": "Katie Ledecky holds the world record in the women's 800-meter freestyle."
+    },
+    {
+        "sport": "Volleyball",
+        "fact": "Volleyball was invented in 1895 by William G. Morgan."
+    },
+    {
+        "sport": "Volleyball",
+        "fact": "The longest volleyball match lasted 75 hours and 30 minutes."
+    },
+    {
+        "sport": "Volleyball",
+        "fact": "Beach volleyball became an Olympic sport in 1996."
+    },
+    {
+        "sport": "Volleyball",
+        "fact": "The fastest serve in volleyball was 134 km/h by Ivan Zaytsev."
+    },
+    {
+        "sport": "Volleyball",
+        "fact": "The FIVB is the international governing body for volleyball."
+    },
+    {
+        "sport": "Table Tennis",
+        "fact": "Table tennis is also known as ping pong."
+    },
+    {
+        "sport": "Table Tennis",
+        "fact": "The longest table tennis rally lasted 8 hours and 40 minutes."
+    },
+    {
+        "sport": "Table Tennis",
+        "fact": "Table tennis became an Olympic sport in 1988."
+    },
+    {
+        "sport": "Table Tennis",
+        "fact": "The fastest table tennis serve was 112.5 km/h by Liu Guoliang."
+    },
+    {
+        "sport": "Table Tennis",
+        "fact": "China has won the most Olympic gold medals in table tennis."
+    },
+    {
+        "sport": "Badminton",
+        "fact": "Badminton is the fastest racket sport, with shuttlecocks reaching speeds of over 400 km/h."
+    },
+    {
+        "sport": "Badminton",
+        "fact": "The longest badminton match lasted 124 minutes."
+    },
+    {
+        "sport": "Badminton",
+        "fact": "Badminton became an Olympic sport in 1992."
+    },
+    {
+        "sport": "Badminton",
+        "fact": "Lin Dan is considered one of the greatest badminton players of all time."
+    },
+    {
+        "sport": "Badminton",
+        "fact": "The All England Open is the oldest badminton tournament in the world."
+    },
+    {
+        "sport": "Snooker",
+        "fact": "Snooker was invented in 1875 by British Army officers."
+    },
+    {
+        "sport": "Snooker",
+        "fact": "Ronnie O'Sullivan holds the record for the fastest maximum break (147) in 5 minutes and 20 seconds."
+    },
+    {
+        "sport": "Snooker",
+        "fact": "The World Snooker Championship is held annually at the Crucible Theatre in Sheffield."
+    },
+    {
+        "sport": "Snooker",
+        "fact": "Stephen Hendry has won the most World Snooker Championships (7)."
+    },
+    {
+        "sport": "Snooker",
+        "fact": "The longest frame of snooker lasted 123 minutes and 41 seconds."
+    },
+    {
+        "sport": "Darts",
+        "fact": "Darts originated in England in the 19th century."
+    },
+    {
+        "sport": "Darts",
+        "fact": "The highest possible score in a single turn is 180."
+    },
+    {
+        "sport": "Darts",
+        "fact": "Phil Taylor has won 16 World Darts Championships."
+    },
+    {
+        "sport": "Darts",
+        "fact": "The longest darts match lasted 14 hours and 33 minutes."
+    },
+    {
+        "sport": "Darts",
+        "fact": "The PDC World Darts Championship is held annually at Alexandra Palace."
+    }
+]

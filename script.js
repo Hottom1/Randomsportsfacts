@@ -15,16 +15,16 @@ document.addEventListener('DOMContentLoaded', function () {
             url = 'https://www.thesportsdb.com/api/v1/json/3/eventsrandom.php';
         } else {
             // Fetch events for a specific sport
-            url = `https://www.thesportsdb.com/api/v1/json/3/searchfilename.php?e=${encodeURIComponent(sport)}`;
+            url = `https://www.thesportsdb.com/api/v1/json/3/searchevents.php?e=${encodeURIComponent(sport)}`;
         }
 
         try {
             const response = await fetch(url);
             const data = await response.json();
 
-            if (data.events && data.events.length > 0) {
-                const randomEvent = data.events[Math.floor(Math.random() * data.events.length)];
-                currentFact = `${randomEvent.strEvent}: ${randomEvent.strDescription || 'No description available.'}`;
+            if (data.event && data.event.length > 0) {
+                const randomEvent = data.event[Math.floor(Math.random() * data.event.length)];
+                currentFact = `${randomEvent.strEvent}: ${randomEvent.strDescriptionEN || 'No description available.'}`;
             } else {
                 currentFact = `No facts found for ${sport}. Try another sport!`;
             }

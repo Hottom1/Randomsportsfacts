@@ -9,8 +9,24 @@
 <body>
     <div class="container">
         <h1>Random Sports Facts</h1>
+        <div class="filter">
+            <label for="sportFilter">Filter by Sport:</label>
+            <select id="sportFilter">
+                <option value="all">All Sports</option>
+                <option value="Soccer">Soccer</option>
+                <option value="Basketball">Basketball</option>
+                <option value="Tennis">Tennis</option>
+                <option value="Baseball">Baseball</option>
+                <option value="Football">Football</option>
+                <option value="Hockey">Hockey</option>
+            </select>
+        </div>
         <p id="fact">Click the button to get a random sports fact!</p>
         <button id="factButton">Get Fact</button>
+        <div class="share-buttons">
+            <a id="tweet" target="_blank" rel="noopener noreferrer">Tweet</a>
+            <a id="facebook" target="_blank" rel="noopener noreferrer">Share on Facebook</a>
+        </div>
     </div>
     <script src="script.js"></script>
 </body>

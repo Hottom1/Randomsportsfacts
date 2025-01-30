@@ -7,30 +7,30 @@ document.addEventListener('DOMContentLoaded', function () {
 
     let currentFact = '';
 
-    // Fetch random sports fact from TheSportsDB API or fallback to local JSON
+    // Fetch random sports fact from TheSportsDB API
     async function fetchFact(sport = 'all') {
-        let url = 'https://www.thesportsdb.com/api/v1/json/3/eventsrandom.php';
-        if (sport !== 'all') {
-            url = `https://www.thesportsdb.com/api/v1/json/3/eventsseason.php?${sport}`;
+        let url;
+        if (sport === 'all') {
+            // Fetch random events if no sport is selected
+            url = 'https://www.thesportsdb.com/api/v1/json/3/eventsrandom.php';
+        } else {
+            // Fetch events for a specific sport
+            url = `https://www.thesportsdb.com/api/v1/json/3/searchfilename.php?e=${encodeURIComponent(sport)}`;
         }
 
         try {
             const response = await fetch(url);
             const data = await response.json();
-            const events = data.events;
 
-            if (events && events.length > 0) {
-                const randomEvent = events[Math.floor(Math.random() * events.length)];
+            if (data.events && data.events.length > 0) {
+                const randomEvent = data.events[Math.floor(Math.random() * data.events.length)];
                 currentFact = `${randomEvent.strEvent}: ${randomEvent.strDescription || 'No description available.'}`;
             } else {
-                throw new Error('No events found');
+                currentFact = `No facts found for ${sport}. Try another sport!`;
             }
         } catch (error) {
-            console.error('Error fetching sports fact from API:', error);
-            // Fallback to local JSON
-            const localResponse = await fetch('facts.json');
-            const localData = await localResponse.json();
-            currentFact = localData[Math.floor(Math.random() * localData.length)];
+            console.error('Error fetching sports fact:', error);
+            currentFact = 'Failed to fetch a fact. Please try again later.';
         }
 
         factElement.textContent = currentFact;
